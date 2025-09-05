@@ -39,23 +39,5 @@ public class Unnary {
            System.out.println("UP button pressed elevator at floor no: " + floor++);
            System.out.println("DOWN button pressed elevator at floor no: " + floor--);
           System.out.println("The final floor is : " + floor);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
