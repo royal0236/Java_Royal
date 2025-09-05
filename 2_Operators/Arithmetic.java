@@ -9,11 +9,11 @@ public class Arithmetic {
       double first_number=sc.nextDouble();
      System.out.print("Enter the second number:");
       double second_number=sc.nextDouble();
-      System.out.println("Sum of Two Numbers is:" +(first_number + second_number));
-      System.out.println("Difference of Two Numbers is:" +(first_number - second_number));
-      System.out.println("Product of Two Numbers is:" +(first_number * second_number));
-      System.out.println("Quotient of Two Numbers is:" +(first_number / second_number));
-      System.out.println("Remainder of Two Numbers is:" +(first_number % second_number));
+      System.out.println("Sum of Two Numbers is:" + (first_number + second_number));
+      System.out.println("Difference of Two Numbers is:" + (first_number - second_number));
+      System.out.println("Product of Two Numbers is:" + (first_number * second_number));
+      System.out.println("Quotient of Two Numbers is:" + (first_number / second_number));
+      System.out.println("Remainder of Two Numbers is:" + (first_number % second_number));
       // Write a program to calculate the area of a triangle.(b*h)/2.
       System.out.println("calculate the area of a triangle");
       System.out.print("Enter the base value:");
@@ -51,6 +51,5 @@ public class Arithmetic {
        int number_2=sc.nextInt();
        System.out.println("Both Integers in Division: " + number_1 / number_2);
        System.out.println("Both Integers in Division: " + (float)number_1 / number_2);
-
   }
 }
