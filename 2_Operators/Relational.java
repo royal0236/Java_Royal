@@ -148,6 +148,34 @@ else
             else {
                 System.out.println("Fail");
             }
+            //Check Temperature Condition
+              System.out.println("Temperature Condition");
+              System.out.print("Enter the temperature:");
+              float temp=sc.nextFloat();
+              if ( temp < 0 ){
+               System.out.println("Freezing");
+              }
+              else if ( temp  >= 0 && temp >= 30) {
+                System.out.println("Normal");
+            }
+            else {
+                System.out.println("Hot");
+
+            }
+          // Compare Two Strings
+             System.out.println("Compareing of  Two Strings");
+             sc.nextLine();
+             System.out.println("Enter your first string:");
+             String firstString=sc.nextLine();
+             System.out.println("Enter your second string:");
+             String secondString=sc.nextLine();
+             if ( firstString.equals(secondString)){
+                System.out.println("Two Strings are equal.");
+             }
+             else {
+                System.out.println("Two Strings are not equal.");
+             }
+          
              }
              
     }
