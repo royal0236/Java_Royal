@@ -39,5 +39,9 @@ public class Unnary {
            System.out.println("UP button pressed elevator at floor no: " + floor++);
            System.out.println("DOWN button pressed elevator at floor no: " + floor--);
           System.out.println("The final floor is : " + floor);
+          //Take a number and print its negative using unary minus (-).
+          int n=29;
+          System.out.println(-n);
+          
     }
 }
